@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/pitabasdev/node-compiler/issues"
   },
-  "homepage": "https://github.com/pitabasdev/node-compiler#readme"
+  "homepage": "https://github.com/pitabasdev/node-compiler#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "compilex": "^0.7.4",
+    "express": "^4.18.2"
+  }
 }
