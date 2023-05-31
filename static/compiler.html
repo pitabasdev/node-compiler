@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online IDE</title>
+</head>
+
+<body>
+    <center>
+        <h1>Online IDE</h1>
+        <form id="myform" name="myform" action="compilecode" method="post">
+            <textarea name="code" id="code" cols="30" rows="10"></textarea>
+            <br>
+            <h3>Input</h3>
+            <textarea name="input" id="input" cols="30" rows="10"></textarea>
+            <br>
+            Language:<select>
+                <option value="C">C</option>
+                <option value="Java">Java</option>
+                <option value="Python">Python</option>
+            </select>
+            Compile with Input:
+            <input type="radio" name="inputradio" id="inputradio" value="true">Yes
+            <input type="radio" name="inputradio" id="inputradio" value="false">No
+            <br>
+            <input type="submit" value="Compile" name="submit">
+        </form>
+
+    </center>
+
+</html>
