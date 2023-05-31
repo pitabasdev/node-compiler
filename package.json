@@ -1,0 +1,19 @@
+{
+  "name": "node-compiler",
+  "version": "1.0.0",
+  "description": "it is web based online compiler using nide js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pitabasdev/node-compiler.git"
+  },
+  "author": "pitabas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pitabasdev/node-compiler/issues"
+  },
+  "homepage": "https://github.com/pitabasdev/node-compiler#readme"
+}
